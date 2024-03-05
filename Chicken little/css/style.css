@@ -497,6 +497,13 @@ section
         margin: 2rem 2.5rem;
         display: block;
     }
+    .home .content
+    {
+        margin-left: 0%;
+        padding: 20px;
+        text-align: center;
+        width: 60rem;
+    }
     .footer
     {
         text-align: center;
