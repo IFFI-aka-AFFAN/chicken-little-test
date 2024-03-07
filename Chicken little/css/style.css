@@ -468,13 +468,24 @@ section
     {
         padding: 2rem;
     }
+    .home
+    {
+        display: flex;
+        justify-content: center;
+        background-position: center;
+        background-size: cover;
+        margin-top: 10px;
+        padding-top: 8rem;
+        
+        padding-bottom: 7rem;
+    }    
     .footer
     {
         text-align: center;
     }
     .whatsapp_img
      {
-        width: 15%;
+        width: 13%;
      } 
 } 
 
@@ -486,7 +497,44 @@ section
     }
     .home
     {
-        background: url(../image/m\ banner.png) no-repeat;
+        background: url(../image/banner\-res.png) no-repeat;
+
+        display: flex;
+        justify-content: center;
+        background-position: center;
+        background-size: contain;
+        margin-top: 70px;
+        padding-top: 10rem;
+        padding-bottom: 7rem;
+    }
+    .home .content
+    {
+        padding: 20px;
+        padding-top: 50px;
+        text-align: center;
+        width: 60rem;
+    }
+    .home .content h3
+    {
+        color: var(--black);
+        font-size: 3rem;
+        text-shadow: var(--box-shadow);
+        font-weight: bold;
+    }
+    .home .content h3 span
+    {
+        color: #658f40;
+        text-shadow: var(--box-shadow);
+        font-weight: bold;
+    }
+    .home .content p
+    {
+        color: var(--black);
+        font-size: 1.7rem;
+        font-weight: bolder;
+        text-shadow: var(--box-shadow);
+        padding: 1rem 0;
+        line-height: 1.8;
     }
     .header .navbar
     {
@@ -538,20 +586,20 @@ section
     }
     .home
     {
-        background: url(../image/banner\ -res.png) no-repeat;
+        background: url(../image/banner-res.png) no-repeat;
 
         display: flex;
         justify-content: center;
         background-position: center;
         background-size: cover;
-        margin-top: 70px;
+        margin-top: 60px;
         padding-top: 10rem;
         padding-bottom: 7rem;
     }
     .home .content
     {
         padding: 20px;
-        padding-top: 50px;
+        padding-top: 70px;
         text-align: center;
         width: 60rem;
     }
@@ -587,7 +635,7 @@ section
     }
     .whatsapp_img
      {
-        width: 15%;
+        width: 13%;
      } 
 }
 @media only screen and (max-width: 600px)
